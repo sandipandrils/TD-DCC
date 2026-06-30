@@ -239,6 +239,9 @@ Use this workflow if you have a raw trajectory and topology file and want TDDCC 
 5. Click **COMPUTE DCC**. Progress is reported in the log box and the progress bar; this can take anywhere from seconds to several minutes depending on trajectory length and Window/Step settings.
 6. When finished, TDDCC automatically fills the next section (Input Data) with the output directory, so you can go straight to Section 6.3.
 
+<img width="4500" height="1455" alt="Fig4_manual" src="https://github.com/user-attachments/assets/f6b39d7f-7ba7-468f-9862-3ef7cfdb2ba3" />
+
+
 *Figure 4 — The dashboard, showing DCC calculation for a sample data set.*
 
 > **NOTE**
@@ -265,6 +268,9 @@ Use this workflow if you already have a folder of correlation matrices saved as 
 
 - **Positive correlation / Negative correlation**: the range of mean correlation values that count as positively or negatively correlated.
 - **Positive corr prob / Negative corr prob**: the range of occurrence probability — the fraction of windows in which a pair showed that sign of correlation — required for a pair to be included. A high probability means the correlation is consistent across the trajectory rather than driven by a few outlier windows.
+
+<img width="4388" height="1358" alt="Fig5_manual" src="https://github.com/user-attachments/assets/d3a85ffb-15d0-43df-b1d8-9d61aa4012df" />
+
 
 *Figure 5 — The populated dashboard, showing setting residue limits and running the analysis for a sample data set.*
 
