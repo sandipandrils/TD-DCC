@@ -1,4 +1,4 @@
-# TDDCC User Manual
+# TD-DCC User Manual
 
 **Time-Dependent Dynamical Cross-Correlation Analysis**
 
