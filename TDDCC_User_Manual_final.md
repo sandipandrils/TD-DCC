@@ -43,6 +43,7 @@ The application provides everything needed for this workflow in a single window:
 The diagram below summarizes the overall pipeline: a trajectory is streamed and split into windows; each window's correlation matrix is computed in parallel; and the resulting matrices are aggregated into statistics that drive the interactive dashboard.
 
 <img width="4500" height="3031" alt="Fig1" src="https://github.com/user-attachments/assets/fbab437f-776b-462b-be74-9fd4d692be0c" />
+
 *Figure 1 — Overview of the TD-DCC compute and visualization pipeline.*
 
 ---
@@ -152,6 +153,7 @@ python3 TD-DCC_gui.py       # Linux
 A small window titled "Dynamic Cross-Correlation Analysis" should appear within a few seconds (Figure 2). If it does, installation is complete and you can proceed to Section 4.
 
 <img width="811" height="638" alt="Screenshot 2026-06-30 104647" src="https://github.com/user-attachments/assets/39d5f957-78f3-4756-9e05-caab5e3f3132" />
+
 *Figure 2 — The TD-DCC intro screen confirms a successful installation.*
 
 > **CAUTION:** If nothing appears and you instead see an error in the terminal, check [Section 8 (Troubleshooting)](#8-troubleshooting) for the most common causes.
