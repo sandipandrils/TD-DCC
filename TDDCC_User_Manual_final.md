@@ -250,6 +250,8 @@ Each heatmap supports the standard Matplotlib navigation toolbar beneath it, so 
 
 To examine how a specific residue pair's correlation behaves across the trajectory rather than just its summary statistic, double-click that cell in any of the three heatmaps. A new window opens showing the pair's correlation value across the frames, along with its mean and standard deviation. From this window you can save the plot as a PNG or export the underlying values as a CSV.
 
+<img width="4398" height="1394" alt="Fig7_manual" src="https://github.com/user-attachments/assets/04920bdf-8fb9-4052-b6a3-9c2b1ca4c08d" />
+
 *Figure 7 — The dashboard, showing the residue pair time series for a sample data set.*
 
 > **TIP:** This view is the best way to confirm that a filtered hit reflects a persistent, biologically meaningful correlation rather than one driven by a handful of unusual windows.
