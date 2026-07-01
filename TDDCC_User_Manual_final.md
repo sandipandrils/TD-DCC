@@ -42,6 +42,7 @@ The application provides everything needed for this workflow in a single window:
 
 The diagram below summarizes the overall pipeline: a trajectory is streamed and split into windows; each window's correlation matrix is computed in parallel; and the resulting matrices are aggregated into statistics that drive the interactive dashboard.
 
+<img width="4500" height="3031" alt="Fig1" src="https://github.com/user-attachments/assets/fbab437f-776b-462b-be74-9fd4d692be0c" />
 *Figure 1 — Overview of the TD-DCC compute and visualization pipeline.*
 
 ---
