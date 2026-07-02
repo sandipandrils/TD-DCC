@@ -81,8 +81,8 @@ pip install MDAnalysis
 ### 4. Clone the repository
 
 ```bash
-git clone https://github.com/sandipandrils/TDDCC.git
-cd TDDCC
+git clone https://github.com/sandipandrils/TD-DCC.git
+cd TD-DCC
 ```
 
 ---
