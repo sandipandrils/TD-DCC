@@ -180,7 +180,7 @@ gmx trjcat -f example/trajectory_and_topology/traj_AAV2_500ns_part*of5.xtc -o fu
 | "No valid matrix data with selected range" | Ensure residue j ≥ residue i in Residue Limits |
 | Buttons cut off at bottom of screen | Scroll the left control panel downward |
 
-For the full troubleshooting list, see [Section 8 of the User Manual](TDDCC_User_Manual_final.md#8-troubleshooting).
+For the full troubleshooting list, see [Section 8 of the User Manual](TD-DCC_User_Manual.md#8-troubleshooting).
 
 ---
 
