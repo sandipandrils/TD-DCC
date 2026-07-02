@@ -4,7 +4,7 @@
 
 Unlike a conventional DCCM — which collapses an entire trajectory into a single static matrix — TD-DCC computes correlations over a **sliding window of frames** and tracks how each residue pair's correlation evolves across the simulation: whether it stays consistently positive, consistently negative, or fluctuates between the two.
 
-> For full details, see the [User Manual](TDDCC_User_Manual_final.md).
+> For full details, see the [User Manual](TD-DCC_User_Manual.md).
 
 ---
 
