@@ -148,23 +148,23 @@ The main workspace is a 1400×900 window with a scrollable control panel on the 
 
 ## Sample Data
 
-The `data/trajectory/` folder contains the AAV2 500 ns MD trajectory split into 5 parts for GitHub compatibility. Reassemble before use:
+The `example/trajectory_and_topology/` folder contains the AAV2 500 ns MD trajectory split into 5 parts for GitHub compatibility. Reassemble before use:
 
 **MDAnalysis (Python)**
 ```python
 import MDAnalysis as mda
 u = mda.Universe("topology.pdb", [
-    "data/trajectory/traj_AAV2_500ns_part1of5.xtc",
-    "data/trajectory/traj_AAV2_500ns_part2of5.xtc",
-    "data/trajectory/traj_AAV2_500ns_part3of5.xtc",
-    "data/trajectory/traj_AAV2_500ns_part4of5.xtc",
-    "data/trajectory/traj_AAV2_500ns_part5of5.xtc"
+    "example/trajectory_and_topology/traj_AAV2_500ns_part1of5.xtc",
+    "example/trajectory_and_topology/traj_AAV2_500ns_part2of5.xtc",
+    "example/trajectory_and_topology/traj_AAV2_500ns_part3of5.xtc",
+    "example/trajectory_and_topology/traj_AAV2_500ns_part4of5.xtc",
+    "example/trajectory_and_topology/traj_AAV2_500ns_part5of5.xtc"
 ])
 ```
 
 **GROMACS**
 ```bash
-gmx trjcat -f data/trajectory/traj_AAV2_500ns_part*of5.xtc -o full_traj.xtc -cat
+gmx trjcat -f example/trajectory_and_topology/traj_AAV2_500ns_part*of5.xtc -o full_traj.xtc -cat
 ```
 
 ---
