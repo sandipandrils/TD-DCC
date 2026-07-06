@@ -111,6 +111,8 @@ Click **"Launch Analysis Dashboard"** on the intro screen to open the main works
 
 > **TIP:** Double-click any cell in a heatmap to open the per-pair time series inspector and confirm whether a correlation is persistent or transient.
 
+> **NOTE:** To calculate DCC of the entire trajectory, instead of the time-averaged one, put the total number of frames in the window. This will calculate a single time-averaged DCC plot with a matrix .txt file.
+
 ---
 
 ## Interface Overview
