@@ -188,7 +188,8 @@ For the full troubleshooting list, see [Section 8 of the User Manual](TD-DCC_Use
 
 If you use TD-DCC in your research, please cite:
 
-> *Manuscript details to be added upon publication.*
+> Prasun Pal, Chaitanya Chintalapati, Sandipan Chakraborty. TD-DCC: An Interactive and Efficient Graphical User Interface-Based Time-Dependent Cross-Correlation Analysis from Molecular Dynamics Trajectories. ChemRxiv. 03 July 2026.
+DOI: https://doi.org/10.26434/chemrxiv.15005626/v1
 
 TD-DCC uses **MDAnalysis** for trajectory parsing. If you use the built-in compute engine, please also cite:
 
