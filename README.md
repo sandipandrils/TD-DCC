@@ -146,24 +146,14 @@ The main workspace is a 1400×900 window with a scrollable control panel on the 
 
 ## Sample Data
 
-The `example/trajectory_and_topology/` folder contains the AAV2 500 ns MD trajectory split into 5 parts for GitHub compatibility. Reassemble before use:
+The `example/trajectory_and_topology/` directory contains a 500 ns AAV2 MD trajectory split into 5 parts to comply with GitHub file size limits. 
 
-**MDAnalysis (Python)**
-```python
-import MDAnalysis as mda
-u = mda.Universe("topology.pdb", [
-    "example/trajectory_and_topology/traj_AAV2_500ns_part1of5.xtc",
-    "example/trajectory_and_topology/traj_AAV2_500ns_part2of5.xtc",
-    "example/trajectory_and_topology/traj_AAV2_500ns_part3of5.xtc",
-    "example/trajectory_and_topology/traj_AAV2_500ns_part4of5.xtc",
-    "example/trajectory_and_topology/traj_AAV2_500ns_part5of5.xtc"
-])
-```
+You can load all segments as a single, continuous trajectory in one of two ways:
+* **Multi-file Selection:** Open the trajectory browser and hold `Ctrl` (or `Cmd` on macOS) to select multiple `.xtc` files at once.
+* **Wildcard Pattern:** Type a glob pattern directly into the trajectory field (e.g., `traj_AAV2_500ns_part*of5.xtc`). 
 
-**GROMACS**
-```bash
-gmx trjcat -f example/trajectory_and_topology/traj_AAV2_500ns_part*of5.xtc -o full_traj.xtc -cat
-```
+Matched files are automatically expanded, naturally sorted, and passed as a list to `MDAnalysis.Universe()`, which chains the segments together seamlessly for analysis in a single run.
+
 
 ---
 
