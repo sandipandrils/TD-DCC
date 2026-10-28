@@ -61,7 +61,7 @@ TD-DCC is a Python desktop application that runs on Windows and Linux. It has mo
 
 ## 3. Installation Guide
 
-This section walks through installing everything TD-DCC needs on Windows and Linux. If you already have a working Python 3.9+ environment, you can skip ahead to [Section 3.3](#33-install-required-packages).
+This section walks through installing everything TD-DCC needs on Windows, macOS, and Linux. If you already have a working Python 3.9+ environment, you can skip ahead to [Section 3.3](#33-install-required-packages).
 
 ### 3.1 Install Python
 
@@ -76,6 +76,27 @@ python --version
 ```
 
 > **NOTE:** The standard Windows installer from python.org includes Tkinter automatically — no extra step is needed.
+
+#### macOS
+
+**Option 1: Official Installer (easiest)**
+1. Download the latest macOS universal installer (`.pkg`) from [python.org/downloads/macos](https://www.python.org/downloads/macos/).
+2. Run the installer and follow the on-screen prompts.
+3. Open **Terminal** and confirm the install:
+
+```bash
+python3 --version
+```
+
+> **NOTE:** The official python.org installer for macOS bundles Tkinter automatically. Avoid using the system `/usr/bin/python3` included with Xcode Command Line Tools, as it often lacks a working Tkinter build.
+
+**Option 2: Homebrew**
+
+If you use [Homebrew](https://brew.sh/), install both Python and the `python-tk` formula (Homebrew does not bundle Tkinter with Python by default):
+
+```bash
+brew install python python-tk
+```
 
 #### Linux (Ubuntu / Debian)
 
@@ -113,7 +134,7 @@ conda activate TD-DCC_env
 python3 -m venv TD-DCC_env
 
 # Activate it:
-source TD-DCC_env/bin/activate       # Linux
+source TD-DCC_env/bin/activate       # Linux / macOS
 TD-DCC_env\Scripts\activate          # Windows (Command Prompt)
 ```
 
@@ -133,9 +154,9 @@ If you want to use the built-in "Compute DCC from Trajectory" panel to generate 
 pip install MDAnalysis
 ```
 
-> **NOTE:** On recent Ubuntu/Debian systems running outside a virtual environment, pip may refuse to install with an "externally-managed-environment" error. Either use a virtual environment as in Section 3.2 (recommended), or add `--break-system-packages` to the pip command.
+> **NOTE:** On recent Ubuntu/Debian systems and macOS (Homebrew Python) running outside a virtual environment, pip may refuse to install with an "externally-managed-environment" error. Either use a virtual environment as in Section 3.2 (recommended), or add `--break-system-packages` to the pip command.
 
-Tkinter is part of the Python standard library and does not need to be installed via pip; on Windows (python.org installer) it is included automatically, and on Linux it is installed via your system package manager as shown in Section 3.1.
+Tkinter is part of the Python standard library and does not need to be installed via pip; on Windows and macOS (python.org installers) it is included automatically, and on Linux or macOS (Homebrew) it is installed via your package manager as shown in Section 3.1.
 
 ### 3.4 Download TD-DCC
 
@@ -147,7 +168,7 @@ From the folder containing `TD-DCC_gui.py`, with your virtual environment activa
 
 ```bash
 python TD-DCC_gui.py        # Windows
-python3 TD-DCC_gui.py       # Linux
+python3 TD-DCC_gui.py       # Linux / macOS
 ```
 
 A small window titled "Dynamic Cross-Correlation Analysis" should appear within a few seconds (Figure 2). If it does, installation is complete and you can proceed to Section 4.
