@@ -180,7 +180,7 @@ python3 TD-DCC_gui.py
 
 Clicking "Launch Analysis Dashboard" opens the main workspace — a single 1400×900 window split into two halves: a scrollable control panel on the left, and a plotting area on the right that stays empty until you run an analysis.
 
-<img width="3798" height="2716" alt="Fig3" src="https://github.com/user-attachments/assets/13d951de-3bc1-4d0d-b914-cd44015d4238" />
+<img width="2161" height="1505" alt="Slide2 - Copy" src="https://github.com/user-attachments/assets/e4b9db90-5fed-449b-a3fe-6a7d8f408351" />
 
 
 *Figure 3 — The top of the control panel: sections related to Run Analysis, View Correlation Dashboard, and Export Data.*
