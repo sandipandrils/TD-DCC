@@ -203,7 +203,6 @@ Clicking "Launch Analysis Dashboard" opens the main workspace — a single 1400�
 
 <img width="2161" height="1505" alt="Slide2 - Copy" src="https://github.com/user-attachments/assets/e4b9db90-5fed-449b-a3fe-6a7d8f408351" />
 
-
 *Figure 3 — The top of the control panel: sections related to Run Analysis, View Correlation Dashboard, and Export Data.*
 
 The control panel is organized into different sections from top to bottom:
@@ -233,7 +232,6 @@ Use this workflow if you have a raw trajectory and topology file and want TD-DCC
 
    <img width="400" height="570" alt="TDDCC_ppt_29092026_manual_figure4" src="https://github.com/user-attachments/assets/8fa007f7-97de-4a44-887b-c336ee60a00e" />
 
-
 *Figure 4 — The dashboard, showing DCC calculation for a sample data set.*
 
 > **NOTE:** If MDAnalysis is not installed, it will report an error when you click COMPUTE DCC. Install it with `pip install MDAnalysis`.
@@ -250,8 +248,14 @@ Use this workflow if you have a raw trajectory and topology file and want TD-DCC
 - **Positive correlation / Negative correlation** — the range of mean correlation values that count as positively or negatively correlated.
 - **Positive corr. Prob. / Negative corr. Prob.** — the range of occurrence probability — the fraction of windows in which a pair showed that sign of correlation — required for a pair to be included. A high probability means the correlation is consistent across the trajectory rather than driven by a few outlier windows.
 
-<img width="300" height="540" alt="TDDCC_ppt_29092026_manual_figure5" src="https://github.com/user-attachments/assets/ee7683b6-1bc8-4174-bcf0-d3808a095673" />
+<p align="center">
+  <img width="300" height="540" alt="TDDCC_ppt_29092026_manual_figure5" src="https://github.com/user-attachments/assets/ee7683b6-1bc8-4174-bcf0-d3808a095673" />
+  <br>
+  <em>Figure 5 — The populated dashboard, showing residue limit settings and running the analysis for a sample data set.</em>
+</p>
 
+
+<img width="300" height="540" alt="TDDCC_ppt_29092026_manual_figure5" src="https://github.com/user-attachments/assets/ee7683b6-1bc8-4174-bcf0-d3808a095673" />
 
 *Figure 5 — The populated dashboard, showing residue limit settings and running the analysis for a sample data set.*
 
