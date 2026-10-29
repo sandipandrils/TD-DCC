@@ -250,8 +250,6 @@ Use this workflow if you have a raw trajectory and topology file and want TD-DCC
 
 <p align="center">
   <img width="300" height="540" alt="TDDCC_ppt_29092026_manual_figure5" src="https://github.com/user-attachments/assets/ee7683b6-1bc8-4174-bcf0-d3808a095673" />
-  <br>
-  <em>Figure 5 — The populated dashboard, showing residue limit settings and running the analysis for a sample data set.</em>
 </p>
 
 
