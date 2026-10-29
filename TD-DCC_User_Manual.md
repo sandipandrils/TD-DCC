@@ -271,7 +271,7 @@ Use this workflow if you have a raw trajectory and topology file and want TD-DCC
 3. Three heatmaps appear in the right-hand panel: **Positive Correlation**, **Negative Correlation**, and **Combined Correlation**, each showing only the residue pairs that satisfy the filters from Section 6.2.
 
 <p align="center">
-   <img width="800" height="1070" alt="TDDCC_ppt_29092026_manual_figure6" src="https://github.com/user-attachments/assets/d6356366-6aed-45ac-8f82-9fc03322136e" />
+   <img width="600" height="800" alt="TDDCC_ppt_29092026_manual_figure6" src="https://github.com/user-attachments/assets/d6356366-6aed-45ac-8f82-9fc03322136e" />
    <br>
   <em>Figure 6 — The populated dashboard, showing positive, negative, and combined correlation heatmaps for a sample data set.</em>
 </p>
