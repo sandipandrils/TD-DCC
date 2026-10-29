@@ -251,6 +251,8 @@ Use this workflow if you have a raw trajectory and topology file and want TD-DCC
 - **Positive corr. Prob. / Negative corr. Prob.** — the range of occurrence probability — the fraction of windows in which a pair showed that sign of correlation — required for a pair to be included. A high probability means the correlation is consistent across the trajectory rather than driven by a few outlier windows.
 
 <img width="4388" height="1358" alt="Fig5_manual" src="https://github.com/user-attachments/assets/d3a85ffb-15d0-43df-b1d8-9d61aa4012df" />
+<img width="400" height="720" alt="TDDCC_ppt_29092026_manual_figure5" src="https://github.com/user-attachments/assets/ee7683b6-1bc8-4174-bcf0-d3808a095673" />
+
 
 *Figure 5 — The populated dashboard, showing residue limit settings and running the analysis for a sample data set.*
 
