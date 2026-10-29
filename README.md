@@ -60,7 +60,7 @@ conda activate TD-DCC_env
 **venv**
 ```bash
 python3 -m venv TD-DCC_env
-source TD-DCC_env/bin/activate      # Linux
+source TD-DCC_env/bin/activate      # Linux or MacOs
 TD-DCC_env\Scripts\activate         # Windows
 ```
 
