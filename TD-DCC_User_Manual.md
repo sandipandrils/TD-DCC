@@ -283,7 +283,7 @@ Each heatmap supports the standard Matplotlib navigation toolbar beneath it, so 
 To examine how a specific residue pair's correlation behaves across the trajectory rather than just its summary statistic, double-click that cell in any of the three heatmaps. A new window opens showing the pair's correlation value across the frames, along with its mean and standard deviation. From this window you can save the plot as a PNG or export the underlying values as a CSV.
 
 <p align="center">
-   <img width="2545" height="2853" alt="TDDCC_ppt_29092026_manual_figure7" src="https://github.com/user-attachments/assets/4a759665-e130-4e36-80f6-55a8cb45b001" />
+   <img width="600" height="700" alt="TDDCC_ppt_29092026_manual_figure7" src="https://github.com/user-attachments/assets/4a759665-e130-4e36-80f6-55a8cb45b001" />
    <br>
   <em>Figure 7 — The dashboard, showing the residue pair time series for a sample data set.</em>
 </p>
