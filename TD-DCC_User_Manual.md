@@ -45,8 +45,7 @@ The diagram below summarizes the overall pipeline: a trajectory is streamed and 
 <p align="center">
   <img width="4500" height="3031" alt="Fig1" src="https://github.com/user-attachments/assets/fbab437f-776b-462b-be74-9fd4d692be0c" />
   <br>
-  <em>Figure 1 — Overview of the TD-DCC compute and visualization pipeline.
-  </em>
+  <em>Figure 1 — Overview of the TD-DCC compute and visualization pipeline.</em>
 </p>
 
 ---
@@ -176,9 +175,11 @@ python3 TD-DCC_gui.py       # Linux / macOS
 
 A small window titled "Dynamic Cross-Correlation Analysis" should appear within a few seconds (Figure 2). If it does, installation is complete and you can proceed to Section 4.
 
-<img width="811" height="638" alt="Screenshot 2026-06-30 104647" src="https://github.com/user-attachments/assets/39d5f957-78f3-4756-9e05-caab5e3f3132" />
-
-*Figure 2 — The TD-DCC intro screen confirms a successful installation.*
+<p align="center">
+  <img width="811" height="638" alt="Screenshot 2026-06-30 104647" src="https://github.com/user-attachments/assets/39d5f957-78f3-4756-9e05-caab5e3f3132" />
+  <br>
+  <em>Figure 2 — The TD-DCC intro screen confirms a successful installation.</em>
+</p>
 
 > **CAUTION:** If nothing appears and you instead see an error in the terminal, check [Section 8 (Troubleshooting)](#8-troubleshooting) for the most common causes.
 
@@ -204,9 +205,11 @@ python3 TD-DCC_gui.py
 
 Clicking "Launch Analysis Dashboard" opens the main workspace — a single 1400×900 window split into two halves: a scrollable control panel on the left, and a plotting area on the right that stays empty until you run an analysis.
 
-<img width="2161" height="1505" alt="Slide2 - Copy" src="https://github.com/user-attachments/assets/e4b9db90-5fed-449b-a3fe-6a7d8f408351" />
-
-*Figure 3 — The top of the control panel: sections related to Run Analysis, View Correlation Dashboard, and Export Data.*
+<p align="center">
+  <img width="2161" height="1505" alt="Slide2 - Copy" src="https://github.com/user-attachments/assets/e4b9db90-5fed-449b-a3fe-6a7d8f408351" />
+  <br>
+  <em>Figure 3 — The top of the control panel: sections related to Run Analysis, View Correlation Dashboard, and Export Data.</em>
+</p>
 
 The control panel is organized into different sections from top to bottom:
 
