@@ -45,6 +45,8 @@ sudo dnf install python3 python3-pip python3-tkinter
 
 **Windows** — download from [python.org/downloads](https://python.org/downloads) and check *"Add python.exe to PATH"* during install. Tkinter is included automatically.
 
+**MacOs** — download the latest macOS universal installer (`.pkg`) from [python.org/downloads/macos](https://www.python.org/downloads/macos/).
+
 ---
 
 ### 2. Create a virtual environment (recommended)
