@@ -1,3 +1,4 @@
+<img width="2499" height="3292" alt="TDDCC_ppt_29092026_manual_figure6" src="https://github.com/user-attachments/assets/b05d936f-5ec4-4a3b-beeb-35ad6fa2cc55" />
 # TD-DCC User Manual
 
 **Time-Dependent Dynamic Cross-Correlation Analysis**
@@ -272,10 +273,12 @@ Use this workflow if you have a raw trajectory and topology file and want TD-DCC
 3. Three heatmaps appear in the right-hand panel: **Positive Correlation**, **Negative Correlation**, and **Combined Correlation**, each showing only the residue pairs that satisfy the filters from Section 6.2.
 
 <p align="center">
-   <img width="600" height="800" alt="TDDCC_ppt_29092026_manual_figure6" src="https://github.com/user-attachments/assets/d6356366-6aed-45ac-8f82-9fc03322136e" />
+   <img width="600" height="800" alt="TDDCC_ppt_29092026_manual_figure6" src="https://github.com/user-attachments/assets/5af715d6-8c0a-4436-8ebd-96fe97d77e51" />
    <br>
   <em>Figure 6 — The populated dashboard, showing positive, negative, and combined correlation heatmaps for a sample data set.</em>
 </p>
+
+
 
 Each heatmap supports the standard Matplotlib navigation toolbar beneath it, so you can pan, zoom, and save any panel as an image independently of the rest of the dashboard.
 
