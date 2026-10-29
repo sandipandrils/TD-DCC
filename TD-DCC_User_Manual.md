@@ -232,7 +232,7 @@ Use this workflow if you have a raw trajectory and topology file and want TD-DCC
 1. In the first section, click **Browse** next to **Trajectory** and select your trajectory file (`.xtc`, `.dcd`, `.trr`, or any format MDAnalysis supports).
 2. Click **Browse** next to **Topology** and select the matching topology file (`.pdb`, `.tpr`, `.gro`, etc.).
 3. Click **Browse** next to **Output directory** and choose where the resulting matrices should be written.
-4. Select **Atom selection** to choose the atom name other than CA atom.
+4. Select **Atom selection** to choose the atom name with a valid MDAnalysis selection string (default “name CA” for backward compatibility).
 5. Set **Window** (the number of frames per sliding window), **Step** (the frame stride used when streaming the trajectory), and **Cores** (how many windows to compute in parallel). The defaults (Window 100, Step 1) are a reasonable starting point for most trajectories.
 6. Click **COMPUTE DCC**. Progress is reported in the log box and the progress bar; this can take anywhere from a few seconds to several minutes, depending on trajectory length and Window/Step settings.
 7. When finished, TD-DCC automatically fills the next section (Input Data) with the output directory, so you can go straight to Section 6.2.
