@@ -239,7 +239,7 @@ Use this workflow if you have a raw trajectory and topology file and want TD-DCC
 <p align="center">
    <img width="400" height="570" alt="TDDCC_ppt_29092026_manual_figure4" src="https://github.com/user-attachments/assets/8fa007f7-97de-4a44-887b-c336ee60a00e" />
    <br>
-  <em>Figure 4 — The dashboard, showing DCC calculation for a sample data set.
+  <em>Figure 4 — The dashboard, showing DCC calculation for a sample data set.</em>
 </p>
 
 > **NOTE:** If MDAnalysis is not installed, it will report an error when you click COMPUTE DCC. Install it with `pip install MDAnalysis`.
@@ -257,10 +257,10 @@ Use this workflow if you have a raw trajectory and topology file and want TD-DCC
 - **Positive corr. Prob. / Negative corr. Prob.** — the range of occurrence probability — the fraction of windows in which a pair showed that sign of correlation — required for a pair to be included. A high probability means the correlation is consistent across the trajectory rather than driven by a few outlier windows.
 
 <p align="center">
-  <img width="300" height="540" alt="TDDCC_ppt_29092026_manual_figure5" src="https://github.com/user-attachments/assets/ee7683b6-1bc8-4174-bcf0-d3808a095673" />
+   <img width="300" height="540" alt="TDDCC_ppt_29092026_manual_figure5" src="https://github.com/user-attachments/assets/ee7683b6-1bc8-4174-bcf0-d3808a095673" />
+   <br>
+  <em>Figure 5 — The populated dashboard, showing residue limit settings and running the analysis for a sample data set.</em>
 </p>
-
-*Figure 5 — The populated dashboard, showing residue limit settings and running the analysis for a sample data set.*
 
 > **NOTE:** The default filters (correlation magnitude ≥ 0.2, probability ≥ 0.1) are a reasonable starting point. You can re-enter different values and click Run Analysis again at any time without reloading your data.
 
