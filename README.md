@@ -22,7 +22,7 @@ Unlike a conventional DCCM — which collapses an entire trajectory into a singl
 ## System Requirements
 
 - Python 3.9 or later (3.10–3.12 recommended)
-- Windows or Linux
+- Windows, MacOs or Linux
 - 8 GB RAM or more recommended for large proteins
 - A graphical desktop session (Tkinter GUI; X11 forwarding supported for remote HPC use)
 
