@@ -233,6 +233,9 @@ Use this workflow if you have a raw trajectory and topology file and want TD-DCC
 
 <img width="4500" height="1455" alt="Fig4_manual" src="https://github.com/user-attachments/assets/f6b39d7f-7ba7-468f-9862-3ef7cfdb2ba3" />
 
+<img width="2021" height="2881" alt="TDDCC_ppt_29092026_manual_figure4" src="https://github.com/user-attachments/assets/7c65ebfa-892c-4345-88ab-0e44c59bf426" />
+
+
 *Figure 4 — The dashboard, showing DCC calculation for a sample data set.*
 
 > **NOTE:** If MDAnalysis is not installed, it will report an error when you click COMPUTE DCC. Install it with `pip install MDAnalysis`.
