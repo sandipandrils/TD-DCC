@@ -1,4 +1,4 @@
-<img width="2499" height="3292" alt="TDDCC_ppt_29092026_manual_figure6" src="https://github.com/user-attachments/assets/b05d936f-5ec4-4a3b-beeb-35ad6fa2cc55" />
+
 # TD-DCC User Manual
 
 **Time-Dependent Dynamic Cross-Correlation Analysis**
