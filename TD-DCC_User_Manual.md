@@ -230,7 +230,9 @@ Use this workflow if you have a raw trajectory and topology file and want TD-DCC
 5. Click **COMPUTE DCC**. Progress is reported in the log box and the progress bar; this can take anywhere from a few seconds to several minutes, depending on trajectory length and Window/Step settings.
 6. When finished, TD-DCC automatically fills the next section (Input Data) with the output directory, so you can go straight to Section 6.2.
 
+<p align="center">
    <img width="400" height="570" alt="TDDCC_ppt_29092026_manual_figure4" src="https://github.com/user-attachments/assets/8fa007f7-97de-4a44-887b-c336ee60a00e" />
+</p>
 
 *Figure 4 — The dashboard, showing DCC calculation for a sample data set.*
 
@@ -251,9 +253,6 @@ Use this workflow if you have a raw trajectory and topology file and want TD-DCC
 <p align="center">
   <img width="300" height="540" alt="TDDCC_ppt_29092026_manual_figure5" src="https://github.com/user-attachments/assets/ee7683b6-1bc8-4174-bcf0-d3808a095673" />
 </p>
-
-
-<img width="300" height="540" alt="TDDCC_ppt_29092026_manual_figure5" src="https://github.com/user-attachments/assets/ee7683b6-1bc8-4174-bcf0-d3808a095673" />
 
 *Figure 5 — The populated dashboard, showing residue limit settings and running the analysis for a sample data set.*
 
